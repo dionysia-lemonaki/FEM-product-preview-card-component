@@ -60,7 +60,10 @@ ol[role='list'] {
 
 body {
     padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: var(--dark-grayish-blue);
     min-height: 100vh;
+    font-size: var(--font-size-body);
     line-height: 1.5;
     background-color: var(--cream);
     display: flex;
@@ -135,4 +138,24 @@ textarea:not([rows]) {
 
 .product-card__content {
     padding: 24px;
+}
+
+.product-card__category {
+   font-size: 0.75rem;
+   font-weight: var(--font-weight-medium);
+   letter-spacing: 0.313em;
+   text-transform: uppercase;
+}
+
+.product-card__title {
+    margin-top: 12px;
+    color: var(--very-dark-blue);
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.product-card__description {
+    margin-top: 16px;
+    font-weight: var(--font-weight-medium);
 }
