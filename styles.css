@@ -3,6 +3,7 @@
 :root {
     /* colours */
     --dark-cyan: #3c8067;
+    --dark-aquamarine: #1A4032;
     --cream: #f2ebe3;
     --very-dark-blue: #1c232b;
     --dark-grayish-blue: #6c7289;
@@ -159,3 +160,41 @@ textarea:not([rows]) {
     margin-top: 16px;
     font-weight: var(--font-weight-medium);
 }
+
+.product-card__prices {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.product-card__price-current {
+    color: var(--dark-cyan);
+    font-family: "Fraunces", serif;
+    font-weight: var(--font-weight-bold);
+    font-size: 2rem;
+}
+
+.product-card__price-original {
+    font-weight: var(--font-weight-medium);
+}
+
+.product-card__button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--dark-cyan);
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: var(--white);
+    font-weight: var(--font-weight-bold);
+}
+
+.product-card__button:hover,
+.product-card__button:focus {
+    background-color: var(--dark-aquamarine);
+}
+
