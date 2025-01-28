@@ -71,6 +71,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
 }
 
 h1, h2, h3, h4,
@@ -192,6 +193,13 @@ textarea:not([rows]) {
 .product-card__button:hover,
 .product-card__button:focus {
     background-color: var(--dark-aquamarine);
+}
+
+/* Attribution Styles */
+
+.attribution, 
+.attribution  a {
+    color: var(--very-dark-blue);
 }
 
 /* Larger Screen Styles */
