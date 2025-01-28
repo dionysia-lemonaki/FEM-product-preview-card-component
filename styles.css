@@ -210,9 +210,9 @@ textarea:not([rows]) {
     .product-card__content {
       flex: 1;
     }
-  
-    .product-card__img {
-      object-fit: cover;
-    }
-    
+
+    .product-card__img img {
+        object-fit: cover;
+        height: 100%;
+    }   
 }
