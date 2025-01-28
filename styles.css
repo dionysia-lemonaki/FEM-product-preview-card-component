@@ -134,6 +134,10 @@ textarea:not([rows]) {
     flex-direction: column;
 }
 
+.product-card__img img {
+  object-fit: cover;
+}
+
 .product-card__content {
     padding: 24px;
 }
@@ -220,7 +224,6 @@ textarea:not([rows]) {
     }
 
     .product-card__img img {
-        object-fit: cover;
         height: 100%;
     }   
 }
