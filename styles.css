@@ -133,10 +133,6 @@ textarea:not([rows]) {
     flex-direction: column;
 }
 
-.product-card__img {
-    object-fit: cover;
-}
-
 .product-card__content {
     padding: 24px;
 }
@@ -198,3 +194,25 @@ textarea:not([rows]) {
     background-color: var(--dark-aquamarine);
 }
 
+/* Larger Screen Styles */
+
+@media (min-width:37.5rem) {
+    .product-card {
+        flex-direction: row;
+    }
+
+    .product-card__content {
+        padding: 32px;
+        line-height: 1.6;
+    }
+
+    .product-card__img, 
+    .product-card__content {
+      flex: 1;
+    }
+  
+    .product-card__img {
+      object-fit: cover;
+    }
+    
+}
