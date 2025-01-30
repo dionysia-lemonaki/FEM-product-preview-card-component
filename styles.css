@@ -136,6 +136,7 @@ textarea:not([rows]) {
 
 .product-card__img img {
   object-fit: cover;
+  height: auto;
 }
 
 .product-card__content {
